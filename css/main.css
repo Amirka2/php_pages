@@ -44,7 +44,7 @@
     background-color: #8d0000;
 }
 
-.text {
+.text_animated {
     animation-name: zooming;
     animation-duration: 3.5s;
     animation-timing-function: ease-in-out;
