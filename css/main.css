@@ -40,9 +40,14 @@
     align-items: center;
 }
 
-.authed {
-    background: url('../photos/auth.png') no-repeat;
-    background-size: cover;
+.img {
+    position: absolute;
+    object-fit: fill;
+
+    width: 100vw;
+    height: 100vh;
+
+    z-index: -1;
 }
 
 .unauthed {
@@ -56,8 +61,8 @@
 
 .text {
     font-family: sans-serif;
-    color: #dadada;
-    font-size: 20px;
+    color: #ffffff;
+    font-size: 40px;
 }
 
 .text_animated {
