@@ -56,17 +56,6 @@
     box-shadow: 0 0 20px 25px rgba(0,0,0,0.15);
 }
 
-.controls {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.controls audio {
-    width: 100px;
-    height: 12px;
-}
-
 @keyframes zooming {
     0% {
         font-size: 0;
