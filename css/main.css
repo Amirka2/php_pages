@@ -40,8 +40,24 @@
     align-items: center;
 }
 
+.authed {
+    background: url('../photos/auth.png') no-repeat;
+    background-size: cover;
+}
+
+.unauthed {
+    background: url('../photos/unauth.png') no-repeat;
+    background-size: cover;
+}
+
 .main.error {
     background-color: #8d0000;
+}
+
+.text {
+    font-family: sans-serif;
+    color: #dadada;
+    font-size: 20px;
 }
 
 .text_animated {
