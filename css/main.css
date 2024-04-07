@@ -38,7 +38,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
 
+.main.error {
     background-color: #8d0000;
 }
 
@@ -54,6 +56,58 @@
     font-family: "Font", 'sans-serif';
     color: red;
     box-shadow: 0 0 20px 25px rgba(0,0,0,0.15);
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 8px;
+
+    width: fit-content;
+}
+
+.row {
+    font-family: sans-serif;
+
+}
+
+.row > label {
+    text-align: right;
+
+    font-size: 20px;
+}
+
+.row > input {
+    font-size: 20px;
+    padding: 8px;
+    border: 1px solid #999999;
+    border-radius: 8px;
+}
+
+.button {
+    background-color: #fff;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+
+    padding: 20px;
+    border-radius: 8px;
+
+    font-size: 20px;
+}
+
+.button_blue {
+    background-color: #1b84ff;
+    color: white;
+}
+
+.button_medium {
+    width: 200px;
 }
 
 @keyframes zooming {
